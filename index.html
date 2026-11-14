@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>سهلة - اطلب أي حاجة</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Tahoma,Arial,sans-serif}
+  body{background:#fff}
+  .header{
+    position:relative;
+    width:100%;
+    max-width:800px;
+    margin:0 auto;
+    aspect-ratio:720 / 1280;
+    background-image:url('header.jpg');
+    background-size:cover;
+    background-position:center top;
+    background-repeat:no-repeat;
+    overflow:hidden;
+  }
+  .bar{
+    position:absolute;
+    bottom:0;left:0;right:0;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:14px 14px 16px;
+    background:linear-gradient(to top, rgba(0,0,0,0.65), transparent);
+  }
+  .play{
+    display:flex;align-items:center;gap:8px;
+    background:#000;color:#fff;text-decoration:none;
+    padding:8px 12px;border-radius:8px;border:1px solid #333;
+  }
+  .play img{width:26px;height:26px}
+  .play .txt{line-height:1.1;text-align:right}
+  .play .small{font-size:10px;color:#ccc;display:block}
+  .play .big{font-size:14px;font-weight:700;display:block}
+  /* زرار فيسبوك بالظبط */
+  .install{
+    background:#1877F2;color:#fff;text-decoration:none;
+    font-size:17px;font-weight:800;
+    padding:11px 22px;border-radius:8px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.35);
+    white-space:nowrap;
+  }
+  .install:active{transform:scale(0.97)}
+  .content{max-width:800px;margin:0 auto;padding:16px;text-align:center;color:#333}
+</style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="bar">
+      <!-- اليمين: جوجل بلاي - بيروح برضه للصفحة الفاضية -->
+      <a class="play" href="download.html">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play">
+        <span class="txt">
+          <span class="small">GET IT ON</span>
+          <span class="big">Google Play</span>
+        </span>
+      </a>
+
+      <!-- الشمال: تثبيت الآن - بيروح للصفحة الفاضية -->
+      <a class="install" href="download.html">تثبيت الآن</a>
+    </div>
+  </div>
+
+  <div class="content">
+    <h2>حمّل تطبيق سهلة دلوقتي</h2>
+    <p>اطلب أي حاجة، المندوب هيشتريها ويجيبها لحد باب البيت</p>
+  </div>
+
+</body>
+            </html>
