@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>سهلة - اطلب أي حاجة</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Tahoma,Arial,sans-serif}
+  body{background:#fff}
+  .header{
+    position:relative;
+    width:100%;
+    max-width:800px;
+    margin:0 auto;
+    aspect-ratio:720 / 1280;
+    background-image:url('header.jpg');
+    background-size:cover;
+    background-position:center top;
+    background-repeat:no-repeat;
+    overflow:hidden;
+  }
+  /* الشريط الجديد زي فيسبوك بالظبط */
+  .bar{
+    position:absolute;
+    bottom:0;left:0;right:0;
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-between;
+    padding:10px 12px;
+    background:#EDEFF3;
+    border-top:1px solid #ddd;
+    gap:10px;
+  }
+  /* عمود يمين وعمود شمال */
+  .col{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+    align-items:stretch;
+  }
+  .col-right{ align-items:flex-start; }
+  .col-left{ align-items:flex-end; }
+
+  .play{
+    display:flex;align-items:center;gap:8px;
+    background:#000;color:#fff;text-decoration:none;
+    padding:7px 12px;border-radius:6px;
+    min-width:160px;
+  }
+  .play img{width:24px;height:24px;object-fit:contain}
+  .play .txt{line-height:1.1;text-align:right}
+  .play .small{font-size:10px;color:#ccc;display:block}
+  .play .big{font-size:14px;font-weight:700;display:block}
+
+  /* زرار فيسبوك بالظبط */
+  .install{
+    background:#1877F2;color:#fff;text-decoration:none;
+    font-size:17px;font-weight:700;
+    padding:9px 18px;border-radius:8px;
+    white-space:nowrap;
+    text-align:center;
+    min-width:160px;
+    display:block;
+  }
+  .install:active{transform:scale(0.97)}
+
+  /* زرار اطلب الآن الجديد */
+  .order-now{
+    background:#FF6B00;color:#fff;text-decoration:none;
+    font-size:17px;font-weight:700;
+    padding:9px 18px;border-radius:8px;
+    white-space:nowrap;
+    text-align:center;
+    min-width:160px;
+    display:block;
+  }
+  .order-now:active{transform:scale(0.97)}
+
+  .content{max-width:800px;margin:0 auto;padding:16px;text-align:center;color:#333}
+</style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="bar">
+      <!-- اليمين: جوجل بلاي + آيفون فوق بعض -->
+      <div class="col col-right">
+        <a class="play" href="download.html">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play">
+          <span class="txt">
+            <span class="small">GET IT ON</span>
+            <span class="big">Google Play</span>
+          </span>
+        </a>
+
+        <a class="play" href="download.html">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="App Store">
+          <span class="txt">
+            <span class="small">Download on the</span>
+            <span class="big">App Store</span>
+          </span>
+        </a>
+      </div>
+
+      <!-- الشمال: تثبيت الآن + اطلب الآن فوق بعض -->
+      <div class="col col-left">
+        <a class="install" href="download.html">تثبيت الآن</a>
+        <a class="order-now" href="https://wwweslamtarek567-netizen.github.io/sahlah-client/">اطلب الآن</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="content">
+    <h2>حمّل تطبيق سهلة دلوقتي</h2>
+    <p>اطلب أي حاجة، المندوب هيشتريها ويجيبها لحد باب البيت</p>
+  </div>
+
+</body>
+  </html>
